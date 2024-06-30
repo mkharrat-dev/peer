@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Peer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+169d9f89045271117ff598d36fb9cb959af089d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e00e6ad90bd2037658ceff0996d45b11e80c33a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Peer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Peer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
