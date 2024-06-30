@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Peer;
 using System;
 using System.Threading.Tasks;
 
@@ -12,7 +13,7 @@ namespace Domain
         private readonly ILogger<PeerController> _logger;
         private readonly IFizzBuzz _fizzBuzz;
         private static readonly Random _random = new Random();
-
+        
         public PeerController(ILogger<PeerController> logger, IFizzBuzz fizzBuzz)
         {
             _logger = logger;
