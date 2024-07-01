@@ -19,24 +19,18 @@ namespace NUnitPeer
         {
             _client = new Mock<HttpClient>().Object;
             _logger = new Mock<ILogger<PeerController>>().Object;
-            _config = new Mock<IAppConfig>().Object; 
+            var configuration = new ConfigurationBuilder()
+               .SetBasePath(TestContext.CurrentContext.TestDirectory) // Ensure it uses the test directory
+               .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+               .Build();
+            var appConfigSection = configuration.GetSection("AppConfig");
+            _config = appConfigSection.Get<AppConfig>();
             _fizzBuzz = new FizzBuzz(_client, _config);
         }
 
         [Test]
         public void Test1()
         { 
-            var configurationSectionMock = new Mock<IConfigurationSection>();
-            var configurationMock = new Mock<Microsoft.Extensions.Configuration.IConfiguration>();
-
-            configurationSectionMock
-               .Setup(x => x.Value)
-               .Returns("https://localhost:5001/Peer");
-
-            configurationMock
-               .Setup(x => x.GetSection("AppConfig:Url"))
-               .Returns(configurationSectionMock.Object);
-
             // Arrange
             var controller = new PeerController(_logger, _fizzBuzz);
 

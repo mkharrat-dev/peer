@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUnitPeer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47dd5c240a5424665bed1f7eea63a5b5d48b7636")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9071c1f50f5d6dfef747e5e16909e42604f0136a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NUnitPeer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NUnitPeer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
