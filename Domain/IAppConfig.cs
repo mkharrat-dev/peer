@@ -2,6 +2,6 @@
 {
     public interface IAppConfig
     {
-        string Url { get;  }
+        string Url { get; set; }
     }
 }

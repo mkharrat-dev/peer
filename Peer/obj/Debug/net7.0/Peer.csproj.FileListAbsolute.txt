@@ -34,3 +34,5 @@ C:\Users\Anis GUINAD\source\repos\mkharrat\peer\Peer\obj\Debug\net7.0\refint\Pee
 C:\Users\Anis GUINAD\source\repos\mkharrat\peer\Peer\obj\Debug\net7.0\Peer.pdb
 C:\Users\Anis GUINAD\source\repos\mkharrat\peer\Peer\obj\Debug\net7.0\Peer.genruntimeconfig.cache
 C:\Users\Anis GUINAD\source\repos\mkharrat\peer\Peer\obj\Debug\net7.0\ref\Peer.dll
+C:\Users\Anis GUINAD\source\repos\mkharrat\peer\Peer\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\Anis GUINAD\source\repos\mkharrat\peer\Peer\bin\Debug\net7.0\Moq.dll
