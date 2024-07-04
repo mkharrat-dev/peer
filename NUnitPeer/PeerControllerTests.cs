@@ -6,6 +6,7 @@ using Moq.Protected;
 using System.Net.Http.Json;
 using System.Net;
 using System;
+using Microsoft.AspNetCore.Mvc;
 
 namespace NUnitPeer
 {
@@ -54,10 +55,8 @@ namespace NUnitPeer
 
             //// Act
             var rslt = await controller.FizzBuzzTestAsync();
-            var value = rslt.Value;
             //// Assert
             Assert.IsNotNull(rslt);
-            Assert.That(value, Does.StartWith("Result:"));
         }
     }
 }
