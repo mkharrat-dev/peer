@@ -1,4 +1,4 @@
-﻿using Peer;
+﻿
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -8,18 +8,18 @@ namespace Domain
     public class FizzBuzz : IFizzBuzz
     {
         private readonly HttpClient _client;
-        private readonly IAppConfig _config;
+        //private readonly IAppConfig _config;
 
-        public FizzBuzz(HttpClient client, IAppConfig config)
+        public FizzBuzz(HttpClient client)//, IAppConfig config)
         {
             _client = client;
-            _config = config;
+            //_config = config;
         }
         public async Task<string> CalculateResultAsync()
         {
             try
             {
-                var response = await _client.GetAsync(_config.Url);
+                var response = await _client.GetAsync(_client.BaseAddress);
                 response.EnsureSuccessStatusCode();
 
                 var content = await response.Content.ReadAsStringAsync();

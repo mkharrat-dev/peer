@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\NUnitPeer\\NUnitPeer.csproj": {}
+    "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\NUnitPeer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj": {
+    "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Anis GUINAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anis GUINAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\NUnitPeer\\NUnitPeer.csproj": {
+    "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\NUnitPeer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\NUnitPeer\\NUnitPeer.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\NUnitPeer.csproj",
         "projectName": "NUnitPeer",
-        "projectPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\NUnitPeer\\NUnitPeer.csproj",
-        "packagesPath": "C:\\Users\\Anis GUINAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\NUnitPeer\\obj\\",
+        "projectPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\NUnitPeer.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anis GUINAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,18 +90,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj"
+              "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Peer\\Peer.csproj": {
-                "projectPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Peer\\Peer.csproj"
+              "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Peer.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Peer.csproj"
               }
             }
           }
@@ -159,24 +157,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Peer\\Peer.csproj": {
+    "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Peer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Peer\\Peer.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Peer.csproj",
         "projectName": "Peer",
-        "projectPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Peer\\Peer.csproj",
-        "packagesPath": "C:\\Users\\Anis GUINAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Peer\\obj\\",
+        "projectPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Peer.csproj",
+        "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Anis GUINAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -185,15 +183,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Anis GUINAD\\source\\repos\\mkharrat\\peer\\Domain\\Domain.csproj"
+              "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\Domain.csproj"
               }
             }
           }
@@ -249,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
