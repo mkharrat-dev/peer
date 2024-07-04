@@ -2,4 +2,10 @@
 # Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
 ################################################################################
 
-/Peer/obj/Debug/net7.0
+/NUnitPeer/bin
+/NUnitPeer/obj
+/.vs/ProjectEvaluation
+/Peer/bin
+/Peer/obj
+/Domain/bin
+/Domain/obj
