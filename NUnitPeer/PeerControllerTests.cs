@@ -1,12 +1,10 @@
 using Domain;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Moq;
 using Moq.Protected;
-using System.Net.Http.Json;
 using System.Net;
-using System;
-using Microsoft.AspNetCore.Mvc;
 
 namespace NUnitPeer
 {
@@ -19,23 +17,6 @@ namespace NUnitPeer
         [SetUp]
         public void Setup()
         {
-            var mockHandler = new Mock<HttpMessageHandler>(MockBehavior.Strict);
-
-            var mockResponse = new HttpResponseMessage
-            {
-                StatusCode = HttpStatusCode.OK
-            };
-
-            mockHandler
-                .Protected()
-                .Setup<Task<HttpResponseMessage>>(
-                    "SendAsync",
-                    ItExpr.Is<HttpRequestMessage>(m => m.Method == HttpMethod.Get),
-                    ItExpr.IsAny<CancellationToken>())
-                .ReturnsAsync(mockResponse);
-
-            // Inject the handler or client into your application code
-            _client = new HttpClient(mockHandler.Object);
             _logger = new Mock<ILogger<PeerController>>().Object;
             var configuration = new ConfigurationBuilder()
                .SetBasePath(TestContext.CurrentContext.TestDirectory) // Ensure it uses the test directory
@@ -43,7 +24,23 @@ namespace NUnitPeer
                .Build();
 
             string url = configuration.GetValue<string>("AppConfig:Url") ?? string.Empty;
-            _client.BaseAddress = new Uri(url);
+
+            var mockHandler = new Mock<HttpMessageHandler>(MockBehavior.Strict);
+
+
+            mockHandler.Protected()
+            .Setup<Task<HttpResponseMessage>>(
+                "SendAsync",
+                ItExpr.IsAny<HttpRequestMessage>(),
+                ItExpr.IsAny<CancellationToken>())
+            .ReturnsAsync(new HttpResponseMessage
+            {
+                StatusCode = HttpStatusCode.OK,
+                Content = new StringContent("{'key':'value'}"),
+            });
+            // Inject the handler or client into your application code
+            _client = new HttpClient(mockHandler.Object);
+            _client.BaseAddress = new Uri( url );
             _fizzBuzz = new FizzBuzz(_client);
         }
 
@@ -53,10 +50,15 @@ namespace NUnitPeer
             // Arrange
             var controller = new PeerController(_logger, _fizzBuzz);
 
-            //// Act
-            var rslt = await controller.FizzBuzzTestAsync();
-            //// Assert
-            Assert.IsNotNull(rslt);
+            // Act
+            var result = await controller.FizzBuzzTestAsync();
+            // Assert
+            Assert.IsNotNull(result);
+            Assert.IsInstanceOf<OkObjectResult>(result.Result);
+            var okResult = result.Result as OkObjectResult;
+            Assert.IsNotNull(okResult);
+            Assert.AreEqual(200, okResult.StatusCode);
+            Assert.AreEqual("Result: Invalid data", okResult.Value);
         }
     }
 }

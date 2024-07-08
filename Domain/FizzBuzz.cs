@@ -8,12 +8,10 @@ namespace Domain
     public class FizzBuzz : IFizzBuzz
     {
         private readonly HttpClient _client;
-        //private readonly IAppConfig _config;
 
-        public FizzBuzz(HttpClient client)//, IAppConfig config)
+        public FizzBuzz(HttpClient client)
         {
             _client = client;
-            //_config = config;
         }
         public async Task<string> CalculateResultAsync()
         {
