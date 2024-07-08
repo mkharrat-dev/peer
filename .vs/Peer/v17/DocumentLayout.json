@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{6A783092-C05E-425E-A93E-D63DC5A0F670}|NUnitPeer\\NUnitPeer.csproj|solutionrelative:nunitpeer\\peercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\peer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|solutionrelative:peer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\domain\\fizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|solutionrelative:domain\\fizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\peer\\controllers\\peercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|solutionrelative:peer\\controllers\\peercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\domain\\ifizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|solutionrelative:domain\\ifizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\domain\\iappconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|solutionrelative:domain\\iappconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\peer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|solutionrelative:peer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,59 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PeerControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\PeerControllerTests.cs",
-              "RelativeDocumentMoniker": "NUnitPeer\\PeerControllerTests.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\PeerControllerTests.cs",
-              "RelativeToolTip": "NUnitPeer\\PeerControllerTests.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAMwCsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T22:39:58.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IFizzBuzz.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\IFizzBuzz.cs",
-              "RelativeDocumentMoniker": "Domain\\IFizzBuzz.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\IFizzBuzz.cs",
-              "RelativeToolTip": "Domain\\IFizzBuzz.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T22:31:25.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAppConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\IAppConfig.cs",
-              "RelativeDocumentMoniker": "Domain\\IAppConfig.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\IAppConfig.cs",
-              "RelativeToolTip": "Domain\\IAppConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T00:24:57.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Program.cs",
-              "RelativeDocumentMoniker": "Peer\\Program.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Program.cs",
-              "RelativeToolTip": "Peer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T00:05:11.984Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -92,9 +40,48 @@
               "RelativeDocumentMoniker": "Peer\\Controllers\\PeerController.cs",
               "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Controllers\\PeerController.cs",
               "RelativeToolTip": "Peer\\Controllers\\PeerController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBkAAAAcAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAApwBcAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T22:51:05.761Z",
+              "WhenOpened": "2024-07-08T15:39:47.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FizzBuzz.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\FizzBuzz.cs",
+              "RelativeDocumentMoniker": "Domain\\FizzBuzz.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\FizzBuzz.cs",
+              "RelativeToolTip": "Domain\\FizzBuzz.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwDYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:32:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Program.cs",
+              "RelativeDocumentMoniker": "Peer\\Program.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Program.cs",
+              "RelativeToolTip": "Peer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:21:22.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeerControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\PeerControllerTests.cs",
+              "RelativeDocumentMoniker": "NUnitPeer\\PeerControllerTests.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\PeerControllerTests.cs",
+              "RelativeToolTip": "NUnitPeer\\PeerControllerTests.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAcwD0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T23:43:59.218Z",
               "EditorCaption": ""
             }
           ]
