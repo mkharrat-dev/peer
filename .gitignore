@@ -8,4 +8,7 @@
 /Peer/bin
 /Peer/obj
 /Domain/bin
+/Domain/obj/Domain/bin
 /Domain/obj
+/NUnitDomain/bin
+/NUnitDomain/obj
