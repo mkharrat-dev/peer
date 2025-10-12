@@ -57,8 +57,8 @@ namespace NUnitPeer
             Assert.IsInstanceOf<OkObjectResult>(result.Result);
             var okResult = result.Result as OkObjectResult;
             Assert.IsNotNull(okResult);
-            Assert.AreEqual(200, okResult.StatusCode);
-            Assert.AreEqual("Result: Invalid data", okResult.Value);
+            Assert.That(okResult.StatusCode, Is.EqualTo(200));
+            Assert.That(okResult.Value, Is.EqualTo("Result: Invalid data"));
         }
     }
 }

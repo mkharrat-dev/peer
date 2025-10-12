@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\",
+  "WorkspaceRootPath": "C:\\Users\\Mohamed\\source\\repos\\peer\\peer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A783092-C05E-425E-A93E-D63DC5A0F670}|NUnitPeer\\NUnitPeer.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\nunitpeer\\peercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A783092-C05E-425E-A93E-D63DC5A0F670}|NUnitPeer\\NUnitPeer.csproj|solutionrelative:nunitpeer\\peercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70AFBB7A-A9E7-4881-8D74-771236B8249A}|NUnitDomain\\NUnitDomain.csproj|c:\\users\\mohamed\\source\\repos\\peer\\peer\\nunitdomain\\fizzbuzztest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AFBB7A-A9E7-4881-8D74-771236B8249A}|NUnitDomain\\NUnitDomain.csproj|solutionrelative:nunitdomain\\fizzbuzztest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\domain\\fizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD76D77-596B-4C23-80B6-E776FB234D26}|Domain\\Domain.csproj|solutionrelative:domain\\fizzbuzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\peer\\controllers\\peercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|solutionrelative:peer\\controllers\\peercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|c:\\users\\mohamed\\source\\repos\\mkharrat-dev\\peer\\peer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824CA1F7-1C1A-41E7-AB0B-683C46B29AE3}|Peer\\Peer.csproj|solutionrelative:peer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70AFBB7A-A9E7-4881-8D74-771236B8249A}|NUnitDomain\\NUnitDomain.csproj|c:\\users\\mohamed\\source\\repos\\peer\\peer\\nunitdomain\\nunitdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70AFBB7A-A9E7-4881-8D74-771236B8249A}|NUnitDomain\\NUnitDomain.csproj|solutionrelative:nunitdomain\\nunitdomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,62 +18,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PeerController.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Controllers\\PeerController.cs",
-              "RelativeDocumentMoniker": "Peer\\Controllers\\PeerController.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Controllers\\PeerController.cs",
-              "RelativeToolTip": "Peer\\Controllers\\PeerController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAApwBcAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:39:47.723Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FizzBuzz.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\FizzBuzz.cs",
-              "RelativeDocumentMoniker": "Domain\\FizzBuzz.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Domain\\FizzBuzz.cs",
-              "RelativeToolTip": "Domain\\FizzBuzz.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAuwDYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:32:10.296Z",
+              "Title": "NUnitDomain",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\peer\\peer\\NUnitDomain\\NUnitDomain.csproj",
+              "RelativeDocumentMoniker": "NUnitDomain\\NUnitDomain.csproj",
+              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\peer\\peer\\NUnitDomain\\NUnitDomain.csproj",
+              "RelativeToolTip": "NUnitDomain\\NUnitDomain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-12T21:22:52.827Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Program.cs",
-              "RelativeDocumentMoniker": "Peer\\Program.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\Peer\\Program.cs",
-              "RelativeToolTip": "Peer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:21:22.314Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PeerControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\PeerControllerTests.cs",
-              "RelativeDocumentMoniker": "NUnitPeer\\PeerControllerTests.cs",
-              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\mkharrat-dev\\peer\\NUnitPeer\\PeerControllerTests.cs",
-              "RelativeToolTip": "NUnitPeer\\PeerControllerTests.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAcwD0AAAAIAAAA",
+              "Title": "FizzBuzzTest.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\source\\repos\\peer\\peer\\NUnitDomain\\FizzBuzzTest.cs",
+              "RelativeDocumentMoniker": "NUnitDomain\\FizzBuzzTest.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\source\\repos\\peer\\peer\\NUnitDomain\\FizzBuzzTest.cs",
+              "RelativeToolTip": "NUnitDomain\\FizzBuzzTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T23:43:59.218Z",
+              "WhenOpened": "2025-10-12T21:21:42.056Z",
               "EditorCaption": ""
             }
           ]
